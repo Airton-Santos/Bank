@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-image: url(peixe_png.png);
+    background-color: rgb(16, 77, 118);
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 75px;
+    font-weight: 800;
+    text-shadow: -1px 2px rgb(255, 255, 255);
+    -webkit-text-fill-color: transparent;
+    background-color: rgb(9, 3, 73);
+    border-radius: 43px;
+}
+
+.container {
+    position: relative;
+    top: 150px;
+    padding: 2rem;
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+    max-height: auto;
+    border-radius: 20px;
+    border: solid black;
+    background-color: rgb(19, 6, 84);
+}
+
+.screen {
+    color: black;
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    border: solid black 2px;
+    background-color: rgb(234, 234, 234);
+}
+
+nav ul {
+    cursor: pointer;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px; /* Espaçamento entre os itens do menu */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000; /* Cor do texto do link */
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #f00; /* Cor do texto do link ao passar o mouse */
+  }
+
+.value {
+    margin: auto;
+    padding: auto;
+    display: none;
+}
+
+.btn {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.btn1, .btn2, .btn3{
+    margin: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;   
+}
+
+.btn1:hover, .btn2:hover, .btn3:hove {
+    background-color: #2980b9;
+}
+
